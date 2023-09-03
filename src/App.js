@@ -8,7 +8,7 @@ function App() {
   return (<>
  
   <AppContext>
-     <RouterProvider basename="/React-app" router={route} />
+     <RouterProvider router={route} />
   </AppContext>
      
   </>);

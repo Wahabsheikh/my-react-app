@@ -1,6 +1,6 @@
 import React from "react";
 import "./Product.scss";
-import pimg from "../../../assets/product/2.jpg"
+import pimg from "../../../utils/data/ProductImage/3.png"
 import { NavLink } from "react-router-dom";
 
 

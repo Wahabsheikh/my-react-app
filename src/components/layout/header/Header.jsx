@@ -32,23 +32,14 @@ function Header() {
         <div className="header-content">
           <ul className="left">
             <li>
-              {" "}
-              <NavLink to="/">Home</NavLink>{" "}
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/about">about</NavLink>
             </li>
-            <li>
-              <NavLink to="/category">category</NavLink>
-            </li>
+
             <li>
               <NavLink to="/products">products</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">contact</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Wahab">wahab</NavLink>
             </li>
           </ul>
           <div className="center">E-Commerce</div>

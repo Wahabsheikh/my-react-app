@@ -1,8 +1,6 @@
 import React from "react";
 import "./Banner.scss";
-// import heroBanner from "../../../../assets/banner/hm1.png";
-import heroBanner from "../../../assets/banner/hm1.png";
-
+import heroBanner from "../../../utils/data/Cetegory image/mobile.png";
 
 function Banner() {
   return (
@@ -17,12 +15,14 @@ function Banner() {
             libero tempora excepturi ad quae?
           </p>
           <div className="ctas">
-          <div className="banner-cta">Read More</div>
-          <div className="banner-cta v2">Shop Now</div>
+            <div className="banner-cta">Read More</div>
+            <div className="banner-cta v2">Shop Now</div>
+          </div>
         </div>
+
+        <div className="img-wrapper">
+          <img className="banner-img" src={heroBanner} alt="immage" />
         </div>
-        
-        <img className="banner-img" src={heroBanner} alt="immage" />
       </div>
     </div>
   );

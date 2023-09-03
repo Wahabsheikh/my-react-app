@@ -92,5 +92,12 @@
         }
       }
     }
+    .img-wrapper:hover {
+      img {
+        transform: rotateY(360deg);
+
+        transition: 2s ease-in-out;
+      }
+    }
   }
 }

@@ -12,6 +12,9 @@
     gap: 10px;
 
     .Category {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background-color: black;
       width: 50%;
       cursor: pointer;
@@ -19,14 +22,35 @@
       @include md {
         width: 20%;
       }
-      img {
-        width: 100%;
-        display: block;
-        transition: all ease 0.3s;
+      &:hover > h4 {
+        position: absolute;
+        color: yellow;
+        font-size: 34px;
+        text-transform: uppercase;
+        background-color: black;
+        padding: 10px 10px;
+        z-index: 1000;
+        transition: 1s ease;
       }
+      img {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        position: relative;
+      }
+      // h4 {
+      //   position: absolute;
+      //   color: yellow;
+      //   font-size: 34px;
+      //   text-transform: uppercase;
+      //   background-color: black;
+      //   padding: 10px 10px;
+      //   z-index: 1000;
+      // }
       &:hover {
         img {
           transform: scale(1.2);
+          transition: 1s ease;
         }
       }
     }
